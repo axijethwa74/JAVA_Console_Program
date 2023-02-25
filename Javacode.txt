@@ -1,0 +1,77 @@
+MarksSheet in Java Example: 
+
+  int rollno,math,eng,urdu,science,phys,Obtain_Marks;
+  double percentage;
+  
+  double Total_Marks=500;
+  
+  String name;
+  
+  Scanner sc=new Scanner(System.in); 
+  
+  System.out.println("=== Makrsheet ===");
+   
+  System.out.println("Student name: ");
+  name=sc.nextLine();
+  
+  System.out.println("Student Rollno : ");
+  rollno=sc.nextInt();
+  
+  
+  System.out.println("Student Mathematics : ");
+  math=sc.nextInt();
+  
+  System.out.println("Student English : ");
+  eng=sc.nextInt();
+  
+  
+  System.out.println("Student Urdu : ");
+  urdu=sc.nextInt();
+  
+  System.out.println("Student Science : ");
+  science=sc.nextInt();
+  
+  
+  System.out.println("Student Physics : ");
+  phys=sc.nextInt();
+  
+ Obtain_Marks=math+eng+urdu+science+phys;
+  
+  percentage =Obtain_Marks/Total_Marks*100;
+  
+  System.out.println(percentage);
+  
+
+
+
+//........................//
+
+Example # 02 Java :
+
+
+Scanner sc=new Scanner(System.in);
+  
+    System.out.println("====== User Input Values ======");
+    
+    
+    System.out.println("Enter your Name: ");
+    String name = sc.nextLine(); 
+    
+     System.out.println("Enter your Full Name: ");
+     String Fullname = sc.next(); 
+     
+      System.out.println("Enter your Address: ");
+     String Address = sc.next(); 
+     
+      System.out.println("Enter your City Name: ");
+     String city = sc.next(); 
+      
+     
+     System.out.println("Bio Data Form *******");
+     
+    System.out.println("Student Name : "+name);
+    System.out.println("Student Full Name : "+Fullname);
+    System.out.println("Student Address : "+Address);
+    System.out.println("Student City : "+city);
+   
+    
